@@ -2,9 +2,14 @@
 pragma solidity ^0.8.17;
 
 import "hardhat/console.sol";
+import "./Summ.sol";
 
 
 contract SummTerms {
+
+    event TermsResponse(address _initializedSumm, bool _created); 
+
+    address [] public createdSumms; 
 
     address payable immutable creator; 
     address payable immutable opponent;
@@ -40,9 +45,14 @@ contract SummTerms {
         summFoundation = _summFoundation;  
     } 
 
-    function respondToTerms(bool _response) public view onlyOpponent {
+    function respondToTerms(bool _response) public onlyOpponent {
         if (_response == true){
-          console.log("lets make a new summ negotiation!");  
+             address initalizedSumm = address(new Summ(address(this)));
+             emit TermsResponse(initalizedSumm, true);
+             createdSumms.push(initalizedSumm); 
+
+        } else {
+            emit TermsResponse(0x0000000000000000000000000000000000000000, false); 
         }
     }
 

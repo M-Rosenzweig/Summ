@@ -24,7 +24,6 @@ contract SummFactory is Ownable{
     }
 
     function changeSummFoundation(address payable _updatedSummFoundation) public onlyOwner {
-        owner 
         summFoundation = _updatedSummFoundation; 
     }
 
