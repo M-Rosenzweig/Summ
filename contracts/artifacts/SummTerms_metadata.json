@@ -1,0 +1,217 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_creator",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_opponent",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalSoftOffersCap",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalFirmOffersCap",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_softRange",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_firmRange",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_penaltyPercent",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_summFoundation",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "firmRange",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCreator",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOpponent",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSummFoundation",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "penaltyPercent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_response",
+						"type": "bool"
+					}
+				],
+				"name": "respondToTerms",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "softRange",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalFirmOffersCap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSoftOffersCap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SummTerms.sol": "SummTerms"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SummTerms.sol": {
+			"keccak256": "0xb27104d39c7ad1f6d2a2648ffaeab635e535f33ef418083112d6ffd112c556f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4956cdd5effd6a69c61e15f83b43d9ba36dc5dba928e4654510b80fba9bef98d",
+				"dweb:/ipfs/QmTUUXLZgT3Y9LDwC7o63ugy2NQj9YCJrPNQaRaHMebega"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		}
+	},
+	"version": 1
+}
