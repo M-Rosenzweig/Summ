@@ -693,26 +693,26 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"contracts/Summ.sol": {
-			"keccak256": "0xe384bf86c02740ff07b7619a035c4d849de6bad12d67c3dfb30355cf3015cb34",
+			"keccak256": "0xd17dc622330c7a4b48733de781fbf73a7561ddc08d45f1a57574892fc5fbc16d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8a458aaee6963f03d893828d7b58880c5786117f34c282595bcd61fd2f5f144",
-				"dweb:/ipfs/QmWZ9zxHzSSzS2DgML3CN7jaHzRko64YZDfEDZwdDxZDTm"
+				"bzz-raw://3caa909f850c9e5230070d3defdd8d2267dd076e5c054d73e216bb0498727ad2",
+				"dweb:/ipfs/QmQGum5oU4aQFKEPgJUvnLs7QDUvs22WSSNfb5zLorUFoM"
 			]
 		},
 		"contracts/SummTerms.sol": {
-			"keccak256": "0x59366c5c06d0f2f3a41df8731706a3b846b898b844aa859a21ad341fd7c0db48",
+			"keccak256": "0xa35d275c589be82dd6fc1856abd4efb97d8fe18ce921a2c53f292f9f5aefd2d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://be981424843a40bcff2afe5673245bf7c1211613f33d6dc96f18e271653eabf7",
-				"dweb:/ipfs/QmNqBvhQ5LScd2M7iUGJicHn26DAqtFXEkDGuBBhHuQT6A"
+				"bzz-raw://9c08b84e15e1f00b52927547497e2214848b5aee821665f35f87a9686937a802",
+				"dweb:/ipfs/QmZkz3pysT5LzFgiBQ6CuMcsBMdzUPzQxaRFBViekyurTv"
 			]
 		},
 		"hardhat/console.sol": {

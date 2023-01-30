@@ -8,6 +8,7 @@ import "./Summ.sol";
 contract SummTerms {
 
     event TermsResponse(address _initializedSumm, bool _created); 
+    event TestEvent(uint _randomNumber); 
 
     address [] public createdSumms; 
 
@@ -49,10 +50,13 @@ contract SummTerms {
         if (_response == true){
              address initalizedSumm = address(new Summ(address(this)));
              emit TermsResponse(initalizedSumm, true);
+             emit TestEvent(613); 
              createdSumms.push(initalizedSumm); 
 
         } else {
             emit TermsResponse(0x0000000000000000000000000000000000000000, false); 
+            emit TestEvent(770); 
+
         }
     }
 

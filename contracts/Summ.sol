@@ -40,7 +40,7 @@ contract Summ{
      uint private mediumNumber; 
      uint private penalty;
 
-     bool public resolved; // maybe change these two states to an Enum (resolved and softRoundActive)
+     bool public resolved; // maybe change these two states to an Enum (resolved and softRoundActive) // pastFirstFirmOffers and softRoundCurrentlyActive modifiers... 
      bool public softRoundActive = true;  
 
      uint private currentSoftGiverOffer; 
